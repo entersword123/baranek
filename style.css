@@ -1,0 +1,54 @@
+body{
+    background: url('img/background.jpg');
+}
+#head{
+    position:absolute;
+    color: #020202;
+    letter-spacing: 3px;
+    text-align:center;
+    font-size: 150px;
+    font-family: 'Dancing Script', cursive;
+    top:20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    cursor: default;
+}
+nav{
+    position:absolute;
+    top: 51%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+li{
+    display:inline-block;
+}
+li a{
+    text-decoration: none;
+    display: inline-block;
+    color:#020202;
+    font-family: 'Caveat', cursive;
+    font-weight: lighter;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding: 0 20px;
+}
+li a:hover{
+    scale:1.2;
+    color: lightgrey;
+}
+#he1{
+    position: absolute;
+    top:15%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 10%;
+    letter-spacing: 3px;
+    text-align:center;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    cursor: default;
+}
+#logo{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
